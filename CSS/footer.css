@@ -1,0 +1,143 @@
+.footerbg{
+    background-color: #0F3041;
+    padding: 25px;
+    color: white;
+    font-family: merriweather;
+    border-bottom: 1.5px solid #fff;
+}
+
+.footercont{
+    margin-top: 20px;
+}
+
+.footertext{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.footersocials{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.footericons{
+    color: #C82424;
+    height: 14px;
+    width: 15px;
+
+}
+
+.footerfb, .footertw, .footerinsta{
+    border: 0.5px solid #000 ;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px;
+    height: 30px;
+    width: auto;
+}
+
+.quicklinkheaderborder, .servicesheaderborder, .contactheaderborder{
+    border-bottom: 3.5px solid #C82424;
+    width: 50px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.quicklinkheader, .servicesheader, .contactinfoheader{
+    font-size: 16px;
+}
+
+.bullets{
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding: 5px 5px 5px 0px;
+}
+
+.services{
+    margin-top: 40px;
+}
+
+.contactinfo{
+    margin-top: 30px;
+}
+
+.contacticon{
+    height: 20px;
+    width: 20px;
+}
+
+.contactinfophone, .contactinfoemail, .contactinfolocation{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.copy{
+    font-size: 16px;
+    background-color: #0F3041;
+    padding: 25px;
+    color: white;
+    font-family: merriweather;
+}
+
+@media screen and (max-width:300px){
+    .footertext{
+        font-size: 9.5px;
+        width: 100vw;
+    }
+
+    .footerbg{
+        padding: 15px;
+    }
+
+    .copy{
+        width: 100vw;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .footercont{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width:901px){
+    .footercont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .quicklink{
+        margin-top: -30px;
+    }
+
+    .services{
+        margin-top: -40px;
+    }
+
+    .contactinfo{
+        margin-top: -130px;
+    }
+}

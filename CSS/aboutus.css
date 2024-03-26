@@ -1,0 +1,211 @@
+.image{
+    width: 100vw;
+    padding: 17px;
+}
+
+.aboutheading{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6C6C6C;
+    margin-left: 15px;
+}
+
+.aboutheadingcont{
+    border-bottom: 3.5px solid #C82424;
+    width: 50px;
+    padding: 2px;
+    margin-left: 15px;
+}
+
+.aboutsubheading{
+    font-weight: 700;
+    width: 90vw;
+    font-size: 25px;
+    font-family: merriweather;
+    margin-left: 15px;
+}
+
+span.subheading{
+    font-style: italic;
+    color: #C82424;
+}
+
+.aboutsubheading, .abouttext, .aboutlistitems{
+    padding: 20px 0px 0px 0px;
+}
+
+.abouttext{
+    color: #6C6C6C;
+    width: 90vw;
+    font-size: 11px;
+    margin-left: 15px;
+}
+
+.square{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    padding: 3px 3px 3px 0px;
+    margin-bottom: 5px;
+}
+
+.aboutlistitems{
+    color: #6C6C6C;
+    margin-left: 15px;
+}
+
+.iconsize{
+    height: 20px;
+    width: 20px;
+}
+
+.freeconsultbtn{
+    margin: 20px 0px 20px 0px;
+}
+
+.free{
+    color: #fff;
+    background-color: #C82424;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 124px;
+    height: 43px;
+    font-family: merriweather;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:300px){
+    .aboutsubheading{
+        font-weight: 700;
+        width: 90vw;
+        font-size: 18px;
+        font-family: merriweather;
+    }
+
+    .abouttext{
+        color: #6C6C6C;
+        width: 90vw;
+        font-size: 8px;
+    }
+
+    .square{
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        gap: 10px;
+        margin-bottom: 2px;
+    }
+
+    .free{
+        color: #fff;
+        background-color: #C82424;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        width: 120px;
+        height: 30px;
+        font-family: merriweather;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .iconsize{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .image{
+        width: 97.5vw;
+    }
+
+    .aboutsubheading{
+        font-weight: 700;
+        width: 95vw;
+        font-size: 40px;
+        font-family: merriweather;
+    }
+
+    .aboutheading{
+        font-size: 25px;
+        margin-left: 25px;
+    }
+
+    .aboutheadingcont{
+        width: 85px;
+        margin-left: 25px;
+    }
+
+    .abouttext{
+        font-size: 20px;
+        width: 90vw;
+        margin-left: 25px;
+    }
+
+    .aboutlistitems{
+        margin-left: 25px;
+    }
+
+    .square{
+        font-size: 20px;
+    }
+
+    .iconsize{
+        height: 30px;
+        width: 30px;
+    }
+
+    .free{
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:901px){
+    .image{
+        width: 480px;
+        height: auto;
+    }
+
+    .abouttext, .aboutsubheading{
+        width: 450px;
+    }
+
+    .flex{
+        width: 600px;
+        height: auto;
+    }
+
+    .about{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .abouttext{
+        font-size: 15px;
+    }
+
+    .aboutlistitems{
+        width: 500px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .videotext, .videoicon{
+        width: 480px;
+        height: 500px;
+    }
+
+    .video{
+        display: flex;
+        gap: 20px;
+    }
+
+
+    }
+

@@ -1,0 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+  body{
+    font-family: merriweather;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.herobtns:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}

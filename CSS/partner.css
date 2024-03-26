@@ -1,0 +1,123 @@
+.partners{
+    padding: 20px;
+}
+
+.partnerstitle{
+    color: #6C6C6C;
+    font-family: merriweather;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.partnerstitleborder{
+    border-bottom: 3px solid #C82424;
+    width: 60px;
+    padding-top: 5px;
+}
+
+.partnerstext{
+    font-family: merriweather;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.partnerlogo{
+    padding: 20px;
+}
+
+.partnersize{
+    width: 130px;
+}
+
+.rotoqui, .socaq{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:300px){
+    .partnerstext{
+        width: 90vw;
+        font-size: 16px;
+    }
+
+    .partnersize{
+        width: 100px;
+    }
+
+    .partnerlogo{
+        margin-left: -20px;
+    }
+
+    .partnerstitle{
+        font-size: 12px;
+        width: 200px;
+        margin-left: 75px;
+    }
+    .partnerstitleborder{
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .partnerlogo{
+        display: flex;
+        gap: 20px;
+        margin-left: -15px;
+    }
+
+    .partnersize{
+        width: 150px;
+    }
+
+    .partnerstitle{
+        margin-left: 330px;
+    }
+
+    .partnerstext{
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width: 900px){
+    .partnersize{
+        width: 170px;
+    } 
+
+    .partnerstext{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:901px){
+    .partnerlogo{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .partnersize{
+        width: 200px;
+    }
+
+    .partnerstitle{
+        margin-left: 450px;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .partnersize{
+        width: 250px;
+    }
+
+    .partnerstitle{
+        margin-left: 600px;
+    }
+}

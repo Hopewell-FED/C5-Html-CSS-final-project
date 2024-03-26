@@ -1,0 +1,390 @@
+.contactus{
+    position: relative;
+    background-image: url(../Assets/images/contact-bg.png);
+    color: #fff;
+    font-family: Merriweather;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.contactcontainer{
+    padding: 22px;
+}
+
+.contactheader{
+    font-size: 18px;
+}
+
+.contacttext{
+    font-size: 11px;
+    margin-top: 25px;
+    width: 90vw;
+}
+
+.contactsocial{
+    margin-top: 25px;
+}
+
+.contactphoneheader{
+    font-size: 16px;
+    width: 120px;
+    padding-bottom: 7px;
+}
+
+.contactphoneborder{
+    border-bottom: 2.5px solid #C82424;
+    width: 55px;
+}
+
+.contactphonenumber{
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.socialheader{
+    width: 140px;
+    font-size: 16px;
+    margin-top: 38px;
+    padding-bottom: 7px;
+}
+
+.socialheaderborder{
+    border-bottom: 2.5px solid #C82424;
+    width: 55px;
+}
+
+.contactsocialicons{
+    margin-top: 20px;
+}
+
+.contactsocialicons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.styleicon{
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    color:#C82424;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.contactformheader{
+    margin-bottom: 20px;
+    height: 23px;
+    font-size: 18px;
+}
+
+.icongrey{
+    height: 24px;
+    width: 24px;
+    color: #fff;
+}
+
+.iconbackground{
+    height: 55px;
+    width: 50px;
+    background-color: #3F596C;
+    padding: 13px;
+    border: none;
+    
+}
+
+.fullname, .text, .emailaddress, .phonenumber, .date{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #2D2D2D;
+}
+
+.styleme{
+    height: 55px;
+    width: 280px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Merriweather;
+}
+
+@media screen and (min-width:400px){
+    .text{
+        height: 152px;
+        width: 30px;
+        background-color: #D9D9D9;
+        border: none;
+        padding: 13px;
+        font-size: 18px;
+        font-family: Merriweather;
+        padding-left: 60px;
+        color: #2D2D2D;
+    }   
+}
+
+.message{
+   position: relative;
+   top: -172px;
+   left: 0px; 
+}
+
+.text{
+    height: 152px;
+    width: 330px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Merriweather;
+    padding-left: 60px;
+    color: #2D2D2D;
+}
+
+.smallicon{
+    display: flex;
+    position: relative;
+    top: -37px;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.iconblack{
+    height: 18px;
+    width: 18px;
+    color: #000;
+}
+
+.textarea{
+    margin-top: -20px;
+}
+
+.contactbutton{
+    margin-top: -50px;
+}
+
+.contbtn{
+    width: 130px;
+    height: 35px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #C82424;
+    border: none;
+    font-family: Merriweather;
+    font-size: 10px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:300px){
+    .styleme{
+        width: 180px;
+        height: 40px;
+    }
+     .text{
+        width: 229px;
+     }
+
+     .smallicon{
+        top: -28px;
+     }
+
+     .iconblack{
+        height: 14px;
+        width: 14px;
+     }
+
+     .icongrey{
+        height: 18px;
+        width: 18px;
+     }
+
+     .iconbackground{
+        height: 40px;
+     }
+
+     ::placeholder, .text{
+        font-size: 14px;
+     }
+
+     .textarea{
+        margin-bottom: 15px;
+     }
+
+     .contacttext{
+        font-size: 8px;
+        margin-top: 25px;
+        width: 75vw;
+     }
+
+     .contactheader{
+        font-size: 10px;
+        width: 90vw;
+     }
+
+     .contactphoneheader, .contactphonenumber,
+     .socialheader, .contactformheader{
+        font-size: 14px;
+     }
+
+     .contactus{
+        height: 900px;
+     }
+
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .contactheader{
+        font-size: 30px;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .contacttext{
+        font-size: 16px;
+    }
+
+    .contactphoneheader, .contactphonenumber,
+     .socialheader, .contactformheader{
+        font-size: 16px;
+     }
+
+     .fullemail, .phonedate{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .styleme{
+        width: 290px;
+     }
+
+     .fullname, .text, .emailaddress, .phonenumber, .date{
+        margin-bottom: 40px;
+    }
+
+    .iconbackground.message{
+        margin-top: -98px;
+    }
+
+    .text{
+        width: 722px;
+        height: 230px;
+    }
+
+     .contactbutton{
+        margin-top: 35px;
+     }   
+}
+
+@media screen and (min-width:901px){
+    .fullemail, .phonedate{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .styleme{
+        width: 400px;
+     }
+
+     .fullname, .text, .emailaddress, .phonenumber, .date{
+        margin-bottom: 40px;
+    }
+
+    .iconbackground.message{
+        margin-top: -98px;
+    }
+
+     .contactbutton{
+        margin-top: 35px;
+     }   
+    
+    .contactcontainer{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 60px;
+    }
+
+    .contactflex{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .contactsocial{
+        display: flex;
+        gap: 20px;
+    }
+
+    .contactheader{
+        font-size: 25px;
+    }
+
+    .contacttext{
+        font-size: 11px;
+    }
+
+    .contactphonenumber{
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    .contactsociallinks{
+        margin-top: -37px;
+    }
+
+    .contactheader, .contacttext{
+        width: 350px;
+    }
+
+    .formflex{
+        width: 788px;
+    }
+
+    .contactform,
+    .contactformheader,
+    .contactforminputs,
+    .fullmail,
+    .phonedate{
+        width: 270px;
+    }
+
+    .text{
+        width: 600px;
+        height: 230px;
+    }
+
+    .styleme{
+        width: 240px;
+        margin-right: 20px;
+    }
+
+    .smallicon{
+        margin-right: 30px;
+    }
+
+    .contactus{
+        height: 650px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 900px){
+    .text{
+        width: 760px;
+    } 
+}
+
+@media screen and (min-width:1200px){
+    .text{
+        width: 768px;
+        height: 230px;
+    }
+
+    .styleme{
+        width: 325px;
+        margin-right: 20px;
+    }
+}

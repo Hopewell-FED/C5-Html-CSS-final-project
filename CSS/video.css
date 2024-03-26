@@ -1,0 +1,205 @@
+.videotext{
+    background-color: #C82424;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.video{
+    padding: 15px;
+}
+
+.videoheader{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: merriweather;
+    height: 75px;
+    margin-top: 15px;
+}
+
+.videosubheader{
+    color: #F4D3D5;
+    font-size: 12px;
+    font-family: Merriweather;
+}
+
+.namesig{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Merriweather;
+}
+
+.holdername{
+    font-size: 14px;
+}
+.videoicon{
+    position: relative;
+    background-image:url(../Assets/images/video\ img.png);
+    margin: 20px 0px 5px 0px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.ellipse{
+    position: relative;
+    top: 120px;
+    left: 134.5px;
+    height: 70px;
+    width: 70px;
+}
+
+.triangle{
+    color: #fff;
+    position: relative;
+    top: 95px;
+    left: 86px;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:300px){
+
+    .videoheader{
+        font-weight: 400;
+        font-size: 11px;
+        width: 95vw;
+    }
+
+    .videosubheader{
+        font-size: 9px;
+        width: 75vw;
+        margin-top: -30px;
+    }
+
+    .namesig{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .holdername{
+        font-size: 12px;
+    }
+
+    .pause{
+        margin-left: -30px;
+    }
+
+    .ellipse{
+        top: 130px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .triangle{
+        height: 20px;
+        width: auto;
+        top: 115px;
+        left: 98px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:450px){
+    .ellipse{
+        position: relative;
+        top: 120px;
+        left: 160px;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .triangle{
+        color: #fff;
+        position: relative;
+        top: 95px;
+        left: 110px;
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .video{
+        margin: 50px;
+    }
+
+    .videoheader{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+
+    .videosubheader{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .signature, .namesig, .holdername{
+        margin-left: 40px;
+    }
+
+    .videoicon{
+        height: 420px;
+    }
+
+    .ellipse{
+        top: 180px;
+        left: 300px;
+        height: 90px;
+        width: 90px;
+        
+    }
+    
+    .triangle{
+        top: 150px;
+        left: 240px;
+        height: 30px;
+        width: 30px;
+    }
+    
+}
+
+@media screen and (min-width:901px){
+    .videotext, .videoicon{
+        width: 480px;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .video{
+        display: flex;
+        gap: 20px;
+    }
+
+    .video>*{
+        display: flex;
+        flex: 1;
+    }
+
+    .pause{
+        margin-left: -2px;
+    }
+
+    .ellipse{
+        top: 170px;
+        left: 210px;
+        height: 70px;
+        width: 70px;
+        
+    }
+    
+    .triangle{
+        top: 146px;
+        left: 160px;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .pause{
+        margin-left: 80px;
+    }
+}
